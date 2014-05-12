@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+{% if page.date %}<meta name="date" content="{{ page.date | date: "%Y-%m-%d" }}" />{% endif %}
+{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+<title>{% if page.title %}{{ page.title }} - Exact Division Blog{% else %}Exact Division Blog{% endif %}</title>
+<link href="{% link_with_mtime /stylesheets/blog.css %}" media="screen" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div class="content">
+
+<div class="header_and_maincontent">
+
+<div class="header">
+
+    <div class="wrap">
+        <div class="left_column">
+            
+            
+                <a href="/">ED LOGO</a>
+
+            
+        </div>
+        <div class="clear"></div>
+    </div>
+
+</div>
+
+<div class="separator"></div>
+
+<div class="maincontent ">
+
+<div class="wrap">
+
+        <div class="spacer"></div>
+
+        {{ content }}
+
+        <div class="clear"></div>
+
+        <div class="spacer3"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer ">
+    <div class="separator"></div>
+    <div class="wrap">
+        <div class="copyright">
+            Copyright &copy; 2014, Exact Division.
+        </div>
+   </div>
+</div>
+
+</div> <!-- content -->
+
+</body>
+</html>
