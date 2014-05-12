@@ -1,65 +1,90 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-{% if page.date %}<meta name="date" content="{{ page.date | date: "%Y-%m-%d" }}" />{% endif %}
-{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
-<title>{% if page.title %}{{ page.title }} - Exact Division Blog{% else %}Exact Division Blog{% endif %}</title>
-<link href="{% link_with_mtime /stylesheets/blog.css %}" media="screen" rel="stylesheet" type="text/css" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.date %}<meta name="date" content="{{ page.date | date: "%Y-%m-%d" }}" />{% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+    <title>{% if page.title %}{{ page.title }} - Exact Division Blog{% else %}Exact Division Blog{% endif %}</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/blog.css" rel="stylesheet">
+  </head>
 
-</head>
+  <body>
 
-<body>
-
-<div class="content">
-
-<div class="header_and_maincontent">
-
-<div class="header">
-
-    <div class="wrap">
-        <div class="left_column">
-            
-            
-                <a href="/">ED LOGO</a>
-
-            
-        </div>
-        <div class="clear"></div>
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" href="/">Home</a>
+          <a class="blog-nav-item active" href="/blog.html">Blog</a>
+        </nav>
+      </div>
     </div>
 
-</div>
+    <div class="container">
 
-<div class="separator"></div>
+      <div class="blog-header">
+        <h1 class="blog-title">Exact Division Blog</h1>
+        <p class="lead blog-description">The official Exact Division Blog.</p>
+      </div>
 
-<div class="maincontent ">
 
-<div class="wrap">
+      <div class="row">
 
-        <div class="spacer"></div>
+        <div class="col-sm-8 blog-main">
 
-        {{ content }}
+          <div class="blog-post">
+            {{ content }}
+          </div>
 
-        <div class="clear"></div>
+        </div><!-- /.blog-main -->
 
-        <div class="spacer3"></div>
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>About Exact Division.</p>
+          </div>
+          <!--
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+              <li><a href="#">March 2013</a></li>
+              <li><a href="#">February 2013</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+          -->
+        </div><!-- /.blog-sidebar -->
 
-</div>
+      </div><!-- /.row -->
 
-</div>
+    </div><!-- /.container -->
 
-</div>
+    <div class="blog-footer">
+      <p>Copyright &copy; 2014, Exact Division.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
 
-<div class="footer ">
-    <div class="separator"></div>
-    <div class="wrap">
-        <div class="copyright">
-            Copyright &copy; 2014, Exact Division.
-        </div>
-   </div>
-</div>
-
-</div> <!-- content -->
-
-</body>
+  </body>
 </html>
+

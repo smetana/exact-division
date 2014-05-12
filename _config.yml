@@ -1,3 +1,4 @@
 destination: _site
 markdown: rdiscount
 permalink: /:year/:month/:title.html
+exclude: [Capfile, deploy.rb, Readme.md]
