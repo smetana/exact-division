@@ -10,6 +10,20 @@ a, a:hover, a:focus, a:active {
     font-weight: normal;
     font-style: normal;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#page {
+    min-height: 100%;
+    margin-bottom: -42px;
+}
+* html #page {
+    height: 100%;
+}
+
 #top-bar {
     display: none;
 }
@@ -64,10 +78,10 @@ a, a:hover, a:focus, a:active {
     background-position: center top;
 }
 #content {
-    margin: 15px auto 55px;
+    margin: 15px auto 95px;
 }
 .single #content {
-margin: 55px auto;   
+margin: 55px auto 95px;   
 }
 body.custom-background {
     background-color: #f7f7f7;
