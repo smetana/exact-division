@@ -2,3 +2,5 @@ destination: _site
 markdown: rdiscount
 permalink: /:year/:month/:title.html
 exclude: [Capfile, deploy.rb, Readme.md]
+paginate: 6
+paginate_path: "blog/page:num"

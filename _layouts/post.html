@@ -1,15 +1,57 @@
----
-layout: blog
----
+{% include header.html %}
 
-<div class="blog-post">
-<h2 class="blog-post-title">{{page.title}}</h2>
-<p class="blog-post-meta">
-    <span class="author">{{page.author}}</span> <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
-</p>
+<div class="single">
 
-{{content}}
+    <h1 class=" container single-entry-title">{{page.title}}</h1>
+    <div id="content" class="site-content container row clearfix clear">
+        <div class="container col-md-12">
+            <div id="primary" class="content-area col-md-8">
+                <main id="main" class="site-main" role="main">
+                
+    <article class="post type-post status-publish format-standard hentry category-photography">
+        <header class="entry-header">
+            <div class="entry-meta">
+                <span class="posted-on"><i class="fa fa-clock-o"> </i><time class="entry-date published" datetime="2014-03-19T08:25:53+00:00">{{ page.date | localize: "%d %B, %Y" }}</time></span>
+                <span class="byline"> <i class="fa fa-user"> </i> <span class="author vcard">{{page.author}}</span></span>
+            </div><!-- .entry-meta -->
+        </header><!-- .entry-header -->
 
-</div><!-- /.blog-post -->
+        <div class="entry-content">
 
-&laquo; <a href="/blog.html">К оглавлению</a>
+            {{content}}
+
+        </div><!-- .entry-content -->
+
+        <footer class="entry-meta">
+            
+        </footer><!-- .entry-meta -->
+    </article><!-- #post-## -->
+
+                <a href="/blog">К списку статей</a>
+
+                </main>
+            </div>
+            <div class="col-md-4 comments-container">
+
+<div id="hypercomments_widget"></div>
+<script type="text/javascript">
+_hcwp = window._hcwp || [];
+_hcwp.push({widget:"Stream", widget_id: 19675});
+(function() {
+if("HC_LOAD_INIT" in window)return;
+HC_LOAD_INIT = true;
+var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/19675/"+lang+"/widget.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hcc, s.nextSibling);
+})();
+</script>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% include footer.html %}

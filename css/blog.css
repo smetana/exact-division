@@ -1,164 +1,143 @@
-/*
- * Globals
- */
-
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
+a, a:hover, a:focus, a:active {
+    color: #234666;
 }
-
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #333;
+@font-face {
+    font-family: 'Technovia-Caps';
+    src:url('/fonts/technovia-caps/Technovia-Caps.ttf.woff') format('woff'),
+        url('/fonts/technovia-caps/Technovia-Caps.ttf.svg#Technovia-Caps') format('svg'),
+        url('/fonts/technovia-caps/Technovia-Caps.ttf.eot'),
+        url('/fonts/technovia-caps/Technovia-Caps.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
 }
-
-
-/*
- * Override Bootstrap's default container.
- */
-
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
+.site-description {
+    color: #fff6dd;
+    margin-left: 10px;
+    text-align: left;
 }
-
-
-/*
- * Masthead for nav
- */
-
-.blog-masthead {
-  background-color: #428bca;
-  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+#social-icons {
+    text-align: left;
+    margin-left: 10px;
 }
-
-/* Nav links */
-.blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: #cdddeb;
+#social-icons img {
+    opacity: 0.65;
 }
-.blog-nav-item:hover,
-.blog-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
+.site-title {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
 }
-
-/* Active state gets a caret at the bottom */
-.blog-nav .active {
-  color: #fff;
+.site-title a {
+    color: #18100A;
+    font-family: 'Technovia-Caps';
+    font-size: 60px;
+    font-weight: 200;
+    text-shadow: 1px 1px 4px #F3DFA0;
 }
-.blog-nav .active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -5px;
-  vertical-align: middle;
-  content: " ";
-  border-right:  5px solid transparent;
-  border-bottom: 5px solid;
-  border-left:   5px solid transparent;
+.site-title a:hover {
+    color: #18100A;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px #D89F68;
 }
-
-
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#primary-main h2.entry-title a:hover {
+    color: #234666;
+    text-decoration: none;
 }
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
+#top-navigation ul a {
+    color: #FFF6DD;
 }
-.blog-description {
-  font-size: 20px;
-  color: #999;
+#top-navigation ul a i {
+    color: #FFF6DD;
+    font-size: 14px;
 }
-
-
-/*
- * Main column and sidebar layout
- */
-
-.blog-main {
-  font-size: 18px;
-  line-height: 1.5;
+#parallax-bg {
+    background: url(/images/concert-9.jpg) no-repeat;
+    background-position: center top;
 }
-
-/* Sidebar modules for boxing content */
-.sidebar-module {
-  padding: 15px;
-  margin: 0 -15px 15px;
+#content {
+    margin: 15px auto 55px;
 }
-.sidebar-module-inset {
-  padding: 15px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
+.single #content {
+margin: 55px auto;   
 }
-.sidebar-module-inset p:last-child,
-.sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
+body.custom-background {
+    background-color: #f7f7f7;
+    background-image: url('/images/v1_bg.png');
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
 }
-
-
-
-/* Pagination */
-.pager {
-  margin-bottom: 60px;
-  text-align: left;
+.attachment-homepage-thumb {
+    height: 270px;
 }
-.pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 30px;
+#primary {
+    background: none repeat scroll 0 0 #FFFBF2;
 }
-
-
-/*
- * Blog posts
- */
-
-.blog-post {
-  margin-bottom: 60px;
+.single #content, .page #content {
+    background: none repeat scroll 0 0 #FFFBF2;
 }
-.blog-post-title {
-  margin-bottom: 5px;
-  font-size: 40px;
+.single .single-entry-title {
+    margin-top: 15px;
 }
-.blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
+.post .author, .post .published {
+    color: #234666;
+    margin-left: 5px;
 }
-
-
-/*
- * Footer
- */
-
-.blog-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
+article.post p {
+    text-indent: 30px;
+    text-align: justify;
 }
-
+article.post p img {
+    display: block;
+}
+#widget_iframe {
+    border: 0 none;
+    display: inline-block;
+    height: 259px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -15px;
+    top: 5px;
+    width: 235px;
+    z-index: 10;
+    opacity: 0.75;
+}
+.player_container {
+    position: relative;
+    min-height: 250px;
+}
+.comments-container {
+    padding-right: 0;
+}
+#hypercomments_widget .hc .hc_menu {
+    color: #234666 !important;
+    font-size: 12px !important;
+}
+#hypercomments_widget .hc .hc_menu:hover {
+    border-bottom: 1px solid #234666 !important;
+    color: #234666 !important;
+}
+#hypercomments_widget .hc .hc_menu_active {
+    border-bottom: 1px solid #234666 !important;
+    color: #234666 !important;
+}
+#hypercomments_widget .hc .hc_like_box {
+    float: right !important;
+    margin-bottom: 13px !important;
+}
+#hypercomments_widget .hc .hc_like_box .hc_like {
+    background: none repeat scroll 0 0 #D3FFB2 !important;
+}
+#hypercomments_widget .hc .hc_like_box .hc_like:hover {
+    background: none repeat scroll 0 0 #D3FFB2 !important;
+}
+#hypercomments_widget .hc .hc_like_box .hc_unlike {
+    background: none repeat scroll 0 0 #FFE1DD !important;
+}
+#hypercomments_widget .hc .hc_like_box .hc_unlike:hover {
+    background: none repeat scroll 0 0 #FFE1DD !important;
+}
+#hypercomments_widget .hc .hc_get_filters {
+    border-top: 5px solid #234666 !important;
+}

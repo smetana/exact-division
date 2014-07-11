@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+{% if page.date %}<meta name="date" content="{{ page.date | date: "%Y-%m-%d" }}" />{% endif %}
+{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+<title>{% if page.title %}{{ page.title }} - Exact Division Blog{% else %}Exact Division Blog{% endif %}</title>
+<link rel='stylesheet'  href='/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/default.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/fonts/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='/css/blog.css' type='text/css' media='all' />
+<script type='text/javascript' src='/js/jquery.js'></script>
+<script type='text/javascript' src='/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='/js/custom.js'></script>
+</head>
+
+<body class="home blog custom-background group-blog">
+    <div id="parallax-bg"></div>
+    <div id="page" class="hfeed site">
+        <div id="top-bar">
+            <div class="container">
+                <div id="top-navigation" class="col-md-12">
+                    <div class="menu-top-bar-container">
+                        <ul id="menu-top-bar" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="/"><i class="fa fa-home"> </i></a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="/blog">СТАТЬИ</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="#">О НАС</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="#">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!--#top-bar-->
+  
+        <div id="header-top">
+            <header id="masthead" class="site-header row container" role="banner">
+                <div class="col-md-8 col-xs-12">
+                    <div class="site-branding">
+                        <h1 class="site-title">
+                            <a href="http://demo.inkhive.com/fifteen/" title="Exact Division" rel="home">Exact Division</a>
+                        </h1> 
+                        <h2 class="site-description">Официальный сайт группы</h2>
+                    </div>  
+                    <div id="social-icons">
+                        <a target="_blank" href="https://www.facebook.com/ExactDivision" title="Facebook" ><img src="/images/social/soshion/facebook.png"></a>
+                        <a target="_blank" href="http://vk.com/exactdivision" title="VK" ><img src="/images/social/soshion/vk1.png"></a>
+                        <a target="_blank" href="https://plus.google.com/u/0/communities/106332796000788004801" title="Google Plus" ><img src="/images/social/soshion/google.png"></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCvARO4bN5VQcMgPKCJDsERg" title="YouTube" ><img src="/images/social/soshion/youtube.png"></a>
+                    </div>
+                </div>
+                <div class="player_container col-md-4 col-xs-12">
+                    <div id="widget_iframe">
+                        <iframe class="widget_iframe" src="http://www.reverbnation.com/widget_code/html_widget/artist_3832657?widget_id=50&amp;posted_by=artist_3832657&pwc[design]=default&pwc[background_color]=%23228262&pwc[included_songs]=1&pwc[photo]=0%2C1&pwc[size]=custom" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </header><!-- #masthead -->
+        </div>
