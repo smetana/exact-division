@@ -1,6 +1,0 @@
-RewriteEngine On
-
-RewriteRule ^.*$ – [F]
-
-RewriteRule ^index\..*                          / [R,QSA]
-RewriteRule ^$ /blog [QSA,L]
