@@ -46,6 +46,12 @@ a, a:hover, a:focus, a:active {
     color: #234666;
     text-decoration: none;
 }
+.pagination ul > li > a:hover {
+    color: #234666;
+}
+.pagination .current {
+    color: #234666;
+}
 #top-navigation ul a {
     color: #FFF6DD;
 }

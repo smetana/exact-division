@@ -1,25 +1,57 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+---
+layout: blog
+description: "Exact Division. Heavy Metal band from Kyiv."
+keywords: "Exact Division, Heavy Metal, Thrash Metal, Trash Metal"
+---
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<div class='row'>     
 
-	<head>
-		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-		<title>Exact Division Official Page</title>
-		<style type="text/css" media="screen">
-			body, html {background-color: #000;}
-			#container {position: absolute; top:50%; left: 50%; width:800px; margin: -220px 0 0 -400px;}
-			#fb {display: block;width:32px;height:32px;background: url(icons.png) left top no-repeat;position: absolute;top: 400px;right:51%;}
-			#vk {display: block;width:32px;height:32px;background: url(icons.png) right top no-repeat;position: absolute;top: 400px;left:51%;}
-		</style>
-	</head>
+{% for post in paginator.posts %}
 
-	<body>
-		<div id="container">
-			<img src="ed_logo.jpg"/>
-			<br/>
-			<a href="http://www.facebook.com/ExactDivision" id="fb" targer="_blank"></a>
-			<a href="http://vk.com/exactdivision" id="vk" target="_blank"></a>
-		</div>
-	</body>
+    <article class="post type-post status-publish format-standard hentry category-photography archive artmain col-md-4 col-sm-8 col-xs-12">
 
-</html>
+        <div class="main-article curb-effect">   
+            <div class="feat-thumb-holder"> 
+            <img width="330" height="270" src="/img/{{ post.image }}" class="attachment-homepage-thumb wp-post-image" alt="{{ post.title }}" />  
+            </div>
+            <div class="main-content"> 
+                <p>{{ post.info }}</p>  
+                <a href="{{ post.url }}" class="info">Подробнее</a>  
+            </div>  
+        </div> 
+        <h2 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2> 
+    </article><!-- #post-## -->
+
+{% endfor %}
+
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    <ul>
+        {% if paginator.previous_page == 1 %}
+            <li><a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+        {% elsif paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+        {% else %}
+            <li><span>&laquo; Prev</span></li>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li><span class="current">{{ page }}</span></li>
+        {% elsif page == 1 %}
+          <li><a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+        {% else %}
+          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+        {% else %}
+            <li><span>Next &raquo;</span></li>
+        {% endif %}
+    </ul>
+</div>
+{% endif %}
