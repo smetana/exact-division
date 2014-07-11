@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Сергей Сметана
+author_url: https://www.facebook.com/serge.smetana
 title: Интерьвью изданию Metal Street News
 image: 2013-07-27.jpg
 info: Киевская heavy-thrash группа Exact Division не так давно презентовала свой ЕР под названием Dirt Jumper. Metal Street News связались с участниками коллектива и узнали о том, что из себя представляет Dirt Jumper изнутри, чего ждать от группы в будущем и как делать драйвовую музыку.

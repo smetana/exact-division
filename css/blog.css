@@ -10,6 +10,9 @@ a, a:hover, a:focus, a:active {
     font-weight: normal;
     font-style: normal;
 }
+#top-bar {
+    display: none;
+}
 .site-description {
     color: #fff6dd;
     margin-left: 10px;

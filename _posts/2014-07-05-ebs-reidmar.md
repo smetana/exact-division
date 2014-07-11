@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Роман Жбадинский
+author_url: https://www.facebook.com/zhbadynskyi
 title: Обзор усилителя EBS Reidmar 250
 image: 2014-07-05.jpg
 info: Роман Жбадинский, недавно ставший официальным эндорсером EBS в Украине, написал обзор басового усилителя (головы) EBS Reidmar 250
