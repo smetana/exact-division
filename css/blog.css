@@ -25,7 +25,7 @@ html, body {
 }
 
 #top-bar {
-    display: none;
+
 }
 .site-description {
     color: #fff6dd;
@@ -113,6 +113,9 @@ article.post p {
 article.post p img {
     display: block;
 }
+article.post p em{
+    color: #777;
+}
 #widget_iframe {
     border: 0 none;
     display: inline-block;
@@ -163,4 +166,20 @@ article.post p img {
 }
 #hypercomments_widget .hc .hc_get_filters {
     border-top: 5px solid #234666 !important;
+}
+#primary_simple {
+    margin-top: 0;
+    padding: 0 15px 35px;
+    min-height: 500px;
+}
+dl.event {
+    font-size: 12px;
+    margin-left: 20px;
+}
+dl.event a {
+    display: inline-block;
+    font-size: 15px;
+}
+dl.event dd {
+    margin-left: 40px;
 }

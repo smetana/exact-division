@@ -1,0 +1,54 @@
+---
+layout: simple_page
+title: Афиша
+description: "Exact Division. Heavy Metal band from Kyiv."
+keywords: "Exact Division, Heavy Metal, Thrash Metal, Trash Metal"
+---
+
+{% assign current_time = site.time | date: "%s" %}
+
+<div class='row'>
+
+<h2>Предстоящие</h2>
+
+<dl class="event">
+{% assign sorted_events = site.events | sort:"date" %}
+{% for event in sorted_events %}
+    {% assign event_time = event.date | date: "%s" %}
+    {% if current_time < event_time %}
+        <dt>
+            <a href="{{ event.url }}">
+                {{ event.name }}
+            </a>
+        </dt>
+        <dd>
+            <span class="date">{{ event.date |  localize: "%d %B, %Y" }}</span>
+            <br/>
+            {{ event.location }}
+        </dd>
+    {% endif %}  
+{% endfor %}
+</dl>
+
+<h2>Прошедшие</h2>
+
+<dl class="event">
+{% assign sorted_events = site.events | sort:"date" %}
+{% for event in sorted_events %}
+    {% assign event_time = event.date | date: "%s" %}
+    {% if current_time > event_time %}
+        <dt>
+            <a href="{{ event.url }}">
+                {{ event.name }}
+            </a>
+        </dt>
+        <dd>
+            <span class="date">{{ event.date |  localize: "%d %B, %Y" }}</span>
+            <br/>
+            {{ event.location }}
+        </dd>
+    {% endif %}  
+{% endfor %}
+</dl>
+
+</div>

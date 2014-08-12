@@ -4,3 +4,114 @@ permalink: /:year/:month/:title.html
 exclude: [Capfile, deploy.rb, Readme.md]
 paginate: 6
 paginate_path: "page:num"
+
+events:
+    - name: 'KOBYZHCHA MOTOFEST'
+      url: http://vk.com/moto_petrovich_party
+      location: село Кобижча, Бобровицкого ройона, Черниговской области 
+      date: 2014-08-23 15:00:00
+
+    - name: 'Благотворительный фестиваль "Пикник на обочине"'
+      url: http://vk.com/picnik_na_obochine
+      location: Обухов, Городской пляж 
+      date: 2014-08-16 12:00:00
+
+    - name: 'Заради миру, заради життя!'
+      location: Киев, Арт Паб Бочка
+      date: 2014-07-29 18::00:00
+      url: http://vk.com/event73360405
+
+    - name: 'Kiev Kills Metal Fest 2014'
+      location: Киев, пр.Победы 112, клуб "Бинго"
+      date: 2014-07-21 18:00:00
+      url: http://vk.com/kievkills_metalsummer
+
+    - name: 'EASTER METAL EGGS'
+      location: Киев, Арт Паб Бочка
+      date: 2014-04-20 18:00:00
+      url: http://vk.com/event69159173
+
+    - name: 'MARCH METAL CATS III'
+      location: Киев, байк-Rock&Roll-клуб "Route66"
+      date: 2014-03-23 18:00:00
+      url: http://vk.com/event63580017
+
+    - name: 'ПАМЯТИ НЕБЕСНОЙ СОТНИ'
+      location: Киев, Арт Паб Бочка
+      date: 2014-03-02 18:00:00
+      url: http://vk.com/event67127595
+
+    - name: 'ATMOSPHERIC WEEKEND TOUR'
+      location: Кривой Рог, Клуб "Madisan", Металлургов пр. 12
+      date: 2014-02-08 18:00:00
+      url: http://vk.com/awt_kr
+
+    - name: 'Мото-рок-фест «ЧИСТАЯ ПЛАНЕТА»'
+      location: Киев, байк-Rock&Roll-клуб "Route66"
+      date: 2014-02-02 19:00:00
+      url: http://vk.com/event63515388
+
+    - name: 'METAL IN CITY'
+      location: Чернигов, Рокоссовского ул. 53, Рок-клуб "Паук"
+      date: 2014-01-25 18:00:00
+      url: http://vk.com/metal_in_city
+
+    - name: 'Киев - Total Metal Domination Tour, pt. 2'
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2013-11-16 18:00:00
+      url: http://vk.com/tmd2_kiev
+
+    - name: 'Kiev Kills: BC Rich Rock Contest 2013 - 2 отборочный тур'
+      location: Киев, City Pub, пр-т Победы,47 ( 2 этаж )
+      date: 2013-10-20 18:00:00
+      url: http://vk.com/bcrich_2
+
+    - name: 'Real Rock Show 2013 in Barvy'
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2013-09-14 18:00:00
+      url: http://vk.com/realrockshowinbarvy2013
+
+    - name: 'Metal Force Open Air Fest 2013'
+      location: Житомир, "Клетка"
+      date: 2013-08-31 18:00:00
+      url: http://vk.com/mf_openair2013
+
+    - name: 'Iron Heart GIG'
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2013-05-11 18:00:00
+      url: http://vk.com/event53364922
+
+    - name: 'MARCH METAL CATS FEST II '
+      location: Киев, пр.Победы 112, клуб "Бинго"
+      date: 2013-03-23 18:00:00
+      url: http://vk.com/event46299826
+
+    - name: 'pre-partys of MARCH METAL CATS FEST'
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2013-02-10 18:00:00
+      url: http://vk.com/prepartysofmmcf
+
+    - name: 'Kiev Kills - Secret Gathering Party'
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2013-01-19 19:00:00 
+      url: http://vk.com/kievkills_secretgatheringparty
+
+    - name: 'LIVE IN PRIME Фінал!! (3 сезон)'
+      location: Киев, Кyдpявcький yзвіз 5-б, клyб "Пpaйм"
+      date: 2012-11-30 18:00:00
+      url: http://vk.com/event44889851
+
+    - name: 'LIVE IN PRIME 1/2 фіналу (3 сезон)'
+      location: Киев, Кyдpявcький yзвіз 5-б, клyб "Пpaйм"
+      date: 2012-10-31 18:00:00
+      url: http://vk.com/event43939378
+
+    - name: 'Kiev Kills: Gothic Pain Party'
+      location: Киев, Кyдpявcький yзвіз 5-б, клyб "Пpaйм"
+      date: 2012-10-06 18:00:00
+      url: http://vk.com/kievkillsgothicpainparty
+
+    - name: 'LIVE IN PRIME 1/4 фіналу (3 сезон)'
+      location: Киев, Кyдpявcький yзвіз 5-б, клyб "Пpaйм" 
+      date: 2012-09-25 18:00:00
+      url: http://vk.com/event42633869

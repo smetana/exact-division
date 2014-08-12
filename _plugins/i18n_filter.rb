@@ -12,6 +12,7 @@ module Jekyll
     def localize(input, format=nil)
       load_translations
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
+      input = DateTime.parse(input) unless ['Date', 'Time', 'DateTime'].include? input.class.name
       I18n.l input, :format => format
     end
 
