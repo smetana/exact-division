@@ -228,11 +228,18 @@ a:active {
   color: #e6e6e6;
   font-weight: lighter;
   padding: 5px 10px;
-  font-size: 12px;
-  text-transform: uppercase;
+  font-size: 16px;
 }
 #top-navigation ul li {
   display: inline;
+}
+#top-navigation ul li.float-right {
+  float: right;
+  color: #fff6dd;;
+  font-size: 16px;
+}
+#top-navigation ul li.float-right a {
+  padding: 5px 2px;
 }
 #top-navigation ul ul {
   display: none;
