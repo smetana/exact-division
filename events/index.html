@@ -34,7 +34,7 @@ keywords: "Exact Division, Heavy Metal, Thrash Metal, Trash Metal"
 
 <dl class="event">
 {% assign sorted_events = site.events | sort:"date" %}
-{% for event in sorted_events %}
+{% for event in sorted_events reversed %}
     {% assign event_time = event.date | date: "%s" %}
     {% if current_time > event_time %}
         <dt>
