@@ -49,12 +49,12 @@ html, body {
     font-family: 'Technovia-Caps';
     font-size: 60px;
     font-weight: 200;
-    text-shadow: 1px 1px 4px #F3DFA0;
+    text-shadow: 1px 1px 4px #858CFF;
 }
 .site-title a:hover {
     color: #18100A;
     text-decoration: none;
-    text-shadow: 1px 1px 5px #D89F68;
+    text-shadow: 1px 1px 5px #EAF2FF;
 }
 #primary-main h2.entry-title a:hover {
     color: #234666;
@@ -74,7 +74,7 @@ html, body {
     font-size: 14px;
 }
 #parallax-bg {
-    background: url(/images/concert-9.jpg) no-repeat;
+    background: url(/images/concert-1.jpg) no-repeat;
     background-position: center top;
 }
 #content {
