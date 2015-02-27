@@ -6,6 +6,46 @@ paginate: 6
 paginate_path: "page:num"
 
 events:
+    - name: 'BLACK SEA METAL FESTIVAL 2015'
+      url: http://vk.com/blackseametalfest
+      location: Ильичевск, Парковая 15, "Metropolis Arena"
+      date: 2015-07-17 17:00:00
+
+    - name: 'Благодійний Концерт Пам`яті "Небесної Сотні"'
+      url: http://vk.com/event85217001
+      location: Киев, пр.Победы 112, клуб "Бинго"
+      date: 2015-02-22 17:00:00
+
+    - name: 'CHAOTIC "FRIDAY 13`s PARTY" vol.2'
+      url: https://vk.com/chaoticparty2
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-02-13 17:00:00
+
+    - name: 'День рождения ЧЕРТА'
+      url: http://vk.com/event86013845
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-02-07 17:00:00
+
+    - name: 'Благотворительный концерт "Soldiers Rescue Session"'
+      url: http://vk.com/soldiers_rescue_session
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-02-01 17:00:00
+
+    - name: 'Kiev Kills: True Metal Edition'
+      url: http://vk.com/kievkillstrue_metal_edition
+      location: Киев, ул. Глыбочицкая 72, клуб "Тыква"
+      date: 2015-01-07 17:00:00
+
+    - name: 'Steel Guard GIG'
+      url: http://vk.com/event77272929
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2014-10-25 17:00:00
+
+    - name: 'Вогняний Лев (фестиваль вогню й перфоменсу у Львові)'
+      url: http://vk.com/lviv_fire_fest
+      location: Львiв, парк "Погулянка"
+      date: 2014-09-14 17:00:00
+
     - name: 'KOBYZHCHA MOTOFEST'
       url: http://vk.com/moto_petrovich_party
       location: село Кобижча, Бобровицкого ройона, Черниговской области 
@@ -16,9 +56,9 @@ events:
       location: Обухов, Городской пляж 
       date: 2014-08-16 12:00:00
 
-    - name: 'Заради миру, заради життя!'
+    - name: 'Благодійний Концерт "Заради миру, заради життя!"'
       location: Киев, Арт Паб Бочка
-      date: 2014-07-29 18::00:00
+      date: 2014-07-29 18:00:00
       url: http://vk.com/event73360405
 
     - name: 'Kiev Kills Metal Fest 2014'
@@ -36,13 +76,13 @@ events:
       date: 2014-03-23 18:00:00
       url: http://vk.com/event63580017
 
-    - name: 'ПАМЯТИ НЕБЕСНОЙ СОТНИ'
+    - name: 'Благодійний Концерт Пам`яті "Небесної Сотні"'
       location: Киев, Арт Паб Бочка
       date: 2014-03-02 18:00:00
       url: http://vk.com/event67127595
 
     - name: 'ATMOSPHERIC WEEKEND TOUR'
-      location: Кривой Рог, Клуб "Madisan", Металлургов пр. 12
+      location: Кривой Рог, Металлургов пр. 12, Клуб "Madisan"
       date: 2014-02-08 18:00:00
       url: http://vk.com/awt_kr
 
@@ -52,7 +92,7 @@ events:
       url: http://vk.com/event63515388
 
     - name: 'METAL IN CITY'
-      location: Чернигов, Рокоссовского ул. 53, Рок-клуб "Паук"
+      location: Чернигов, ул. Рокоссовского 53, Рок-клуб "Паук"
       date: 2014-01-25 18:00:00
       url: http://vk.com/metal_in_city
 
@@ -62,7 +102,7 @@ events:
       url: http://vk.com/tmd2_kiev
 
     - name: 'Kiev Kills: BC Rich Rock Contest 2013 - 2 отборочный тур'
-      location: Киев, City Pub, пр-т Победы,47 ( 2 этаж )
+      location: Киев, пр-т Победы 47, "City Pub"
       date: 2013-10-20 18:00:00
       url: http://vk.com/bcrich_2
 
