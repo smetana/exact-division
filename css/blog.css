@@ -77,12 +77,13 @@ html, body {
 #parallax-bg {
     background: url(/images/concert-1.jpg) no-repeat;
     background-position: center top;
+    background-size: cover;
 }
 #content {
     margin: 15px auto 95px;
 }
 .single #content {
-margin: 55px auto 95px;   
+margin: 55px auto 95px;
 }
 body.custom-background {
     background-color: #f7f7f7;
