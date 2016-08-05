@@ -6,10 +6,70 @@ paginate: 6
 paginate_path: "page:num"
 
 events:
+    - name: 'Metal Displacement Over Nistru 2016'
+      url: http://vk.com/mdon2016
+      location: Moldova, Vadul lui Vodă
+      date: 2016-05-21 13:00:00
+
+    - name: 'Burning Lands Metal GIG'
+      url: http://vk.com/burning_lands_metal_gig
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2016-04-15 19:00:00
+
+    - name: 'MARCH METAL CATS FEST V'
+      url: http://vk.com/event111642668
+      location: Киев, Арт-паб "Бочка на Подолi"
+      date: 2016-03-26 19:00:00
+
+    - name: '“ЧЕРТ” побери... 20 лет на сцене!'
+      url: http://vk.com/event112232772
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2016-02-06 18:00:00
+
+    - name: 'Lost Santa New Year Metal GIG'
+      url: http://vk.com/event108754387
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-12-26 18:00:00
+
+    - name: 'Deadbuzz: Act of Demolish'
+      url: http://vk.com/deadbuzzgig
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-12-04 19:00:00
+
+    - name: 'Thrash Eviscerator GIG'
+      url: http://vk.com/event101470518
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-10-15 19:00:00
+
+    - name: 'Пикник на Обочине 5'
+      url: http://vk.com/picnik_na_obochine
+      location: Обухов, оз. Триджерельне
+      date: 2015-08-11 13:00:00
+
     - name: 'BLACK SEA METAL FESTIVAL 2015'
       url: http://vk.com/blackseametalfest
       location: Ильичевск, Парковая 15, "Metropolis Arena"
       date: 2015-07-17 17:00:00
+
+    - name: 'Kiev Kills: River Metal Party'
+      url: http://vk.com/kievkills_submarine
+      location: Киев, Гидропарк, Теплоход "Каштан 5"
+      date: 2015-07-12 18:00:00
+
+    - name: 'Kiev Kills: Metal Birthday Session'
+      url: http://vk.com/kievkills_metal_birthday
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-07-05 18:00:00
+
+    - name: 'Total Revenge GIG'
+      url: http://vk.com/event88535492
+      location: Киев, Арт-паб "Бочка на Подолi"
+      date: 2015-05-22 19:00:00
+
+    - name: 'Iron Rain GIG'
+      url: http://vk.com/event90450374
+      location: Киев, Ковальский пер.5, клуб "Барвы"
+      date: 2015-04-04 18:00:00
 
     - name: 'Благодійний Концерт Пам`яті "Небесної Сотні"'
       url: http://vk.com/event85217001
@@ -48,16 +108,16 @@ events:
 
     - name: 'KOBYZHCHA MOTOFEST'
       url: http://vk.com/moto_petrovich_party
-      location: село Кобижча, Бобровицкого ройона, Черниговской области 
+      location: село Кобижча, Бобровицкого ройона, Черниговской области
       date: 2014-08-23 15:00:00
 
     - name: 'Благотворительный фестиваль "Пикник на обочине"'
       url: http://vk.com/picnik_na_obochine
-      location: Обухов, Городской пляж 
+      location: Обухов, Городской пляж
       date: 2014-08-16 12:00:00
 
     - name: 'Благодійний Концерт "Заради миру, заради життя!"'
-      location: Киев, Арт Паб Бочка
+      location: Киев, Арт-паб "Бочка на Подолi"
       date: 2014-07-29 18:00:00
       url: http://vk.com/event73360405
 
@@ -67,7 +127,7 @@ events:
       url: http://vk.com/kievkills_metalsummer
 
     - name: 'EASTER METAL EGGS'
-      location: Киев, Арт Паб Бочка
+      location: Киев, Арт-паб "Бочка на Подолi"
       date: 2014-04-20 18:00:00
       url: http://vk.com/event69159173
 
@@ -77,7 +137,7 @@ events:
       url: http://vk.com/event63580017
 
     - name: 'Благодійний Концерт Пам`яті "Небесної Сотні"'
-      location: Киев, Арт Паб Бочка
+      location: Киев, Арт-паб "Бочка на Подолi"
       date: 2014-03-02 18:00:00
       url: http://vk.com/event67127595
 
@@ -152,6 +212,6 @@ events:
       url: http://vk.com/kievkillsgothicpainparty
 
     - name: 'LIVE IN PRIME 1/4 фіналу (3 сезон)'
-      location: Киев, Кyдpявcький yзвіз 5-б, клyб "Пpaйм" 
+      location: Киев, Кyдpявcький yзвіз 5-б, клyб "Пpaйм"
       date: 2012-09-25 18:00:00
       url: http://vk.com/event42633869
