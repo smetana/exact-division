@@ -2,4 +2,3 @@ _site
 promo/video
 Capfile
 deploy.rb
-Gemfile.lock
