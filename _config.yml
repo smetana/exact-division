@@ -1,7 +1,7 @@
 destination: _site
 markdown: rdiscount
 permalink: /:year/:month/:title.html
-exclude: [Capfile, deploy.rb, Readme.md]
+exclude: [README.md, Gemfile, Gemfile.lock]
 paginate: 6
 paginate_path: "page:num"
 
